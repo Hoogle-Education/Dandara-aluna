@@ -62,6 +62,38 @@ sintaxe:
 
 faz as saídas
 
+### `printf` - print file
+
+também faz saídas, mas da biblioteca pede a biblioteca `cstdio`.
+
+```c++
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main(){
+
+  int a;
+
+  cin >> a;
+
+  printf("%d\n", a);
+
+}
+```
+
+**Associações do printf**
+
+`%d`: números inteiros`
+
+`%c`: char
+
+`%f`: float
+
+`%lf` : double (long float)
+
+
 sintaxe:
 ```cpp
   cout << "Hello, World";
@@ -190,7 +222,7 @@ Como se fosse um `if` prolongado.
   cout << "Estoque inicial = " << estoque;
   
   while ( estoque != 0 )
-    estoque--;
+    estoque--; // estoque  = estoque - 1
     cout << "Vendendo produtos ... || Novo Estoque = " << 
     estoque; 
   }
