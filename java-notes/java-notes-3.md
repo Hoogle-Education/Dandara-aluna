@@ -36,7 +36,7 @@ por exemplo:
        | - fazAniversário()
 
 ```
-`
+
 no java:
 ```java
 class Aluno{
@@ -51,4 +51,24 @@ class Aluno{
   }
 
 }
+```
+
+## O conceito de método
+
+Métods também são funções, e funções são um *passo a passo* para que se possa fazer algo.
+
+Em termos mais formais funções são uma sequência bem definida de passos, podendo **ou não** ter um retorno.
+
+Exemplo generico:
+```
+ [tipo de retorno] [nome] ( [parametros] ){
+   // seu procedimento
+ }
+```
+
+Exemplo em Java:
+```java
+ public double media(double x, double y){
+   return (x+y)/2.0;
+ }
 ```
