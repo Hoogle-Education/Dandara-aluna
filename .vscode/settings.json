@@ -1,0 +1,7 @@
+{
+  "java.project.sourcePaths": [
+    "java samples/constructors/src",
+    "java samples/atributos e métodos/src",
+    "java samples/in&outs/src"
+  ]
+}

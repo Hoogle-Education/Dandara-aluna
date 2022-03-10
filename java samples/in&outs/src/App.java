@@ -1,10 +1,17 @@
+import java.util.Scanner;
+
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
        
-        int a;
-        double b;
-        char c;
-        String s;
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Digite uma frase: ");
+
+        String s = in.nextLine();
+
+        System.out.println("voce digitou " + s);
+        
+        in.close();
 
     }
 }
