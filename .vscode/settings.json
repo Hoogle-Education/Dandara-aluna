@@ -1,7 +1,10 @@
 {
   "java.project.sourcePaths": [
+    "projects/Farmacia/src",
+    "java samples/in&outs/src",
+    "java samples/getters&setters/src",
     "java samples/constructors/src",
     "java samples/atributos e métodos/src",
-    "java samples/in&outs/src"
+    "projects/Remedio/src"
   ]
 }

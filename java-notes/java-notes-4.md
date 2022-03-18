@@ -108,4 +108,26 @@ Permito o acesso em qualquer ponto do código.
 
 Para que isso faça mais sentido, vamos expandir para o conceito de pacotes. Pacotes são agrupamentos de classes em java, atualmente estamos criando/usando um pacote super comum chamado por boa prática de `entities`.
 
+## Keyword `private`
 
+Permite o acesso somente na classe em que o atributo foi criado. Desta forma, não deixaremos o uso deliberado de uma uma determinada propriedade da classe.
+
+```java
+  private String nome;
+```
+
+A classe não permite acesso ao nome
+
+### Com getters and setters
+
+```java
+  private String nome;
+
+  public String getNome(){
+    return nome;
+  }
+
+  private void setNome(String nome){
+    this.nome = nome;
+  }
+```
